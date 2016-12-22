@@ -1,0 +1,48 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.inspect-python {
+  border-style: solid;
+  border-top-color: @background-color-selected;
+  border-top-width: 1px;
+  border-bottom-color: @background-color-selected;
+  border-bottom-width: 1px;
+  border-left-color: @background-color-selected;
+  border-left-witdh: 6px;
+
+}
+
+.inspect-python button {
+  margin: 0.2em;
+  background-color: @button-background-color;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: @button-border-color;
+  font-size: 0.7em;
+}
+
+.inspect-python .inspect-python-close:hover {
+  background-color: @background-color-error;
+  //background-color: @button-background-color-hover;
+}
+
+.inspect-python .inspect-python-titlebar {
+  cursor: pointer;
+}
+
+.inspect-python .inspect-python-titlebar:hover .inspect-python-expand {
+  background-color: @background-color-success;
+}
+
+.inspect-python .inspect-python-title {
+  margin: 0.2em;
+  margin-left: 0.5em;
+  font-size: 0.8em;
+  font-style: italic;
+  text-decoration: none;
+  color: @text-color-subtle;
+}
